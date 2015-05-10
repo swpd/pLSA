@@ -15,7 +15,6 @@ public:
     void Train(const std::string &corpora_file, const int num_topics,
             const int epoch);
     void SaveModel(const std::string &model_dir);
-    void LoadModel(const std::string &model_dir);
 
 private:
     void RandomInit();
